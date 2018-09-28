@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Directive, ElementRef, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ele: ElementRef, ) { }
 
+  @HostListener('window:scroll', [''])
+  @HostListener('mousewheel', ['$event'])
+  onMousewheel(event) {
+
+   
+    if (window.pageYOffset > 100) {
+      document.getElementById("navbar").style.background = "#fff";
+      document.getElementById("navbar").className = "navbar navbar-expand-lg fixed-top navbar-light";
+    } else {
+      document.getElementById("navbar").style.background = "transparent";
+      document.getElementById("navbar").className = "navbar navbar-expand-lg fixed-top navbar-dark";
+    }   
+
+  }
+
+  
   ngOnInit() {
   }
 

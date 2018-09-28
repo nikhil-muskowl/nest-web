@@ -1,10 +1,20 @@
-@import "~bootstrap/dist/css/bootstrap.css";
-
-@media (max-width: 767px) {
-    .footer-text {
-      font-size: 4px;
-    }
-  }
-  
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  margin-bottom: 0;
+  list-style: none;
+}
  
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 10.5rem;
+  padding-left: .5rem;
+  font-size: 2rem;
+}
+
+
+.nav-account a{
+  color: #ff0000;
+}
   
