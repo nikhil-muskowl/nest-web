@@ -1,0 +1,143 @@
+/* .social-icons {
+    position: absolute;
+    width: 100%;
+    top: 483px;
+} */
+
+.img-fluid {
+    width: 100%;
+}
+
+.social-icons {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    /* background: rgba(0,0,0,.3); */
+    background-size: cover;
+    height: fit-content;
+}
+
+.social-icons .row {
+    margin-top: 34% !important;
+    color: red;
+    text-align: right;
+}
+
+.social-icons .detail {
+    margin-right: -85px !important;
+}
+
+.social-icons .title {
+    font-size: 2.5rem !important;
+    color: red;
+    margin-bottom: 0.2rem !important;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.social-icons .title-p {
+    font-size: 20px !important;
+    color: black; 
+    text-align: right;
+}
+
+.social-icons #socials {
+    margin-top: -370px; 
+}
+
+.social-icons .social-row {
+    margin-left: 135px; 
+    margin-top: 0px !important; 
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin-right: 80px !important;
+}
+
+.social-icons #socials .fa-facebook-f {
+    color:#38529a; 
+    margin-top:220px;
+}
+
+.social-icons #socials .fa-instagram {
+    color:#a43d9e; 
+    margin-top:10px;
+}
+
+.social-icons #socials .fa-twitter {
+    color:#00a8eb; 
+    margin-top:10px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .social-icons .title {
+        font-size: 1.2rem !important;
+        margin-bottom: 0.1rem !important;
+    }
+
+    .social-icons .detail {
+        margin-right: 65px !important;
+    }
+
+    .social-icons .title-p {
+        font-size: 8px !important;
+    }
+
+    .social-icons .row {
+        margin-top: 20% !important;
+    }
+
+    .social-icons .social-row {
+        margin-top: 5% !important;
+        margin-left: 280px; 
+        font-size: 10px;
+    }
+
+    .social-icons #socials .fa-facebook-f {
+        margin-top:256px;
+    }
+} */
+
+/* Smartphones (landscape) ----------- */
+/* @media only screen and (min-width : 321px) {
+    .social-icons .title {
+        font-size: 1.2rem !important;
+        margin-bottom: 0.1rem !important;
+    }
+
+    .social-icons .detail {
+        margin-right: 65px !important;
+    }
+
+    .social-icons .title-p {
+        font-size: 8px !important;
+    }
+
+    .social-icons .row {
+        margin-top: 30% !important;
+    }
+
+    .social-icons .social-row {
+        margin-top: 0% !important;
+        margin-left: 435px;
+        font-size: 12px;
+    }
+
+    .social-icons #socials .fa-facebook-f {
+        margin-top:218px;
+    }
+} */
+
+/* iPads (portrait and landscape) ----------- */
+/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+} */

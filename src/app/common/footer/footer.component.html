@@ -7,11 +7,11 @@
           <h3 class="title">Customer Service</h3>
 
           <ul class="list-group">
-            <li class="list-group-item"><a href="#">Contact</a></li>
+            <li class="list-group-item"><a routerLink="/contact-us">Contact</a></li>
             <li class="list-group-item"><a href="#">FAQ</a></li>
-            <li class="list-group-item"><a href="#">Terms of payment</a></li>
-            <li class="list-group-item"><a href="#">Terms of sale</a></li>
-            <li class="list-group-item"><a href="#">Delivery terms and conditions</a></li>
+            <li class="list-group-item"><a routerLink="/terms-of-payment">Terms of payment</a></li>
+            <li class="list-group-item"><a routerLink="/terms-of-sale">Terms of sale</a></li>
+            <li class="list-group-item"><a routerLink="/delivery-terms-n-conditions">Delivery terms and conditions</a></li>
             <li class="list-group-item"><a href="#">Return and refunds</a></li>
           </ul>
 
@@ -22,15 +22,15 @@
           <ul class="list-group">
             <li class="list-group-item"><a href="#">Affiliates</a></li>
             <li class="list-group-item"><a href="#">Cookies</a></li>
-            <li class="list-group-item"><a href="#">How to shop</a></li>
-            <li class="list-group-item"><a href="#">About bird nest</a></li>
+            <li class="list-group-item"><a routerLink="/how-to-shop">How to shop</a></li>
+            <li class="list-group-item"><a routerLink="/about-bird-nest">About bird nest</a></li>
             <li class="list-group-item"><a href="#">Investor relations</a></li>
           </ul>
         </div>
         <div class="col-md-3">
           <h3 class="title">Company</h3>
           <ul class="list-group">
-            <li class="list-group-item"><a href="#">About us</a></li>
+            <li class="list-group-item"><a routerLink="/about-us">About us</a></li>
             <li class="list-group-item"><a href="#">Sitemap</a></li>
             <li class="list-group-item"><a href="#">Get email updates</a></li>
             <li class="list-group-item"><a href="#">Blogs + more</a></li>
@@ -53,19 +53,19 @@
 
   <div class="sub-footer">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" style="font-size: 10px !important;">
         <div class="col-md-6">
           <div class="nav">
-            <a href="#">Privacy & Cookies</a>&nbsp;|&nbsp;
-            <a href="#">Terms & Conditions</a>&nbsp; |&nbsp;
+            <a routerLink="/privacy-policy">Privacy & Cookies</a>&nbsp;|&nbsp;
+            <a routerLink="/terms-n-condision">Terms & Conditions</a>&nbsp; |&nbsp;
             <a href="#">Accessibility</a>&nbsp; |&nbsp;
             <a href="#">Store Directory</a>&nbsp; |&nbsp;
-            <a href="#">About Us</a>
+            <a routerLink="/about-us">About Us</a>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="copy">
           <div class="pull-right">
-            <a href="#">&copy; Bird Nest</a>&nbsp; |&nbsp; <a href="#">All Rights Reserved</a>
+            <a routerLink="/about-bird-nest">&copy; Bird Nest</a>&nbsp; |&nbsp; <a routerLink="/about-bird-nest">All Rights Reserved</a>
           </div>
         </div>
       </div>

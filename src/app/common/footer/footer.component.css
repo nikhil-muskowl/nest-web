@@ -35,3 +35,63 @@ a{
 .sub-footer{
     padding: 1rem 0 1rem 0;
 }
+
+.footer .container {
+    max-width: 100% !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .footer {
+        background-size: cover;
+        padding: 2rem 0 0.5rem 0;
+    }
+
+    .footer .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .footer .container .title {
+        font-size: 18px;
+        padding: 0 0 0.5rem 0;
+    }
+
+    .footer .container .col-md-3 ul {
+        margin-bottom: 15px;
+    }
+
+    .sub-footer .row .col-md-6 {
+        font-size: 8px;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sub-footer .row .col-md-6 .pull-right {
+        float: none;
+        text-align: center;
+    }
+}  */
+
+/* Smartphones (landscape) ----------- */
+/* @media only screen and (min-width : 321px) {
+    .footer {
+        padding: 1.2rem 0 0.5rem 0;
+    }
+
+    .footer .container .row .col-md-3 {
+        width: 50%;
+    }
+
+    .sub-footer .row .col-md-6 {
+        width:70%;
+    }
+
+    .sub-footer .row #copy {
+        width: 30%;
+    }
+}  */
+
+
