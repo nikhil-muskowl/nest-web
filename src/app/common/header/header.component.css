@@ -1,14 +1,11 @@
-/* .social-icons {
-    position: absolute;
-    width: 100%;
-    top: 483px;
-} */
+/* Header CSS */
+
 
 .img-fluid {
     width: 100%;
-}
-
-.social-icons {
+  }
+  
+  .social-icons {
     position: absolute;
     top: 0px;
     right: 0;
@@ -19,124 +16,467 @@
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
-    /* background: rgba(0,0,0,.3); */
     background-size: cover;
     height: fit-content;
-}
-
-.social-icons .row {
+  }
+  
+  .social-icons .row {
     margin-top: 34% !important;
     color: red;
     text-align: right;
-}
-
-.social-icons .detail {
+  }
+  
+  .social-icons .detail {
     margin-right: -85px !important;
-}
-
-.social-icons .title {
+  }
+  
+  .social-icons .title {
     font-size: 2.5rem !important;
     color: red;
     margin-bottom: 0.2rem !important;
     font-weight: bolder;
     text-align: right;
-}
-
-.social-icons .title-p {
+  }
+  
+  .social-icons .title-p {
     font-size: 20px !important;
     color: black; 
     text-align: right;
-}
-
-.social-icons #socials {
+  }
+  
+  .social-icons #socials {
     margin-top: -370px; 
-}
-
-.social-icons .social-row {
+  }
+  
+  .social-icons .social-row {
     margin-left: 135px; 
     margin-top: 0px !important; 
     font-size: 20px;
-}
-
-
-
-.social-icons #socials .fa-facebook-f {
+  }
+  
+  .social-icons #socials .fa-facebook-f {
     color:#38529a; 
     margin-top:220px;
-}
-
-.social-icons #socials .fa-instagram {
+  }
+  
+  .social-icons #socials .fa-instagram {
     color:#a43d9e; 
     margin-top:10px;
-}
-
-.social-icons #socials .fa-twitter {
+  }
+  
+  .social-icons #socials .fa-twitter {
     color:#00a8eb; 
     margin-top:10px;
-}
+  }  
 
+    /* iPad 3 ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
 
-/* Smartphones (portrait and landscape) ----------- */
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .social-icons .title {
-        font-size: 1.2rem !important;
-        margin-bottom: 0.1rem !important;
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
     }
 
-    .social-icons .detail {
-        margin-right: 65px !important;
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+        
     }
 
-    .social-icons .title-p {
-        font-size: 8px !important;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
     }
 
-    .social-icons .row {
-        margin-top: 20% !important;
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
     }
 
-    .social-icons .social-row {
-        margin-top: 5% !important;
-        margin-left: 280px; 
-        font-size: 10px;
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
     }
 
-    .social-icons #socials .fa-facebook-f {
-        margin-top:256px;
-    }
-} */
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
 
-/* Smartphones (landscape) ----------- */
-/* @media only screen and (min-width : 321px) {
-    .social-icons .title {
-        font-size: 1.2rem !important;
-        margin-bottom: 0.1rem !important;
-    }
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
 
-    .social-icons .detail {
-        margin-right: 65px !important;
-    }
+        .form-inline {
+            display: inline;
+        }
 
-    .social-icons .title-p {
-        font-size: 8px !important;
-    }
-
-    .social-icons .row {
-        margin-top: 30% !important;
+        .navbar-collapse {
+            text-align: center !important;
+        }
     }
 
-    .social-icons .social-row {
-        margin-top: 0% !important;
-        margin-left: 435px;
-        font-size: 12px;
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
     }
 
-    .social-icons #socials .fa-facebook-f {
-        margin-top:218px;
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
     }
-} */
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
 
-/* iPads (portrait and landscape) ----------- */
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
 
-} */
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+
+     /* iPhone X ----------- */
+     @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+
+
+  /* Samsung Galaxy S5 ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }
+
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 10.5rem;
+            padding-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav {
+            margin-bottom: 20px !important;
+        }
+
+        .form-inline {
+            display: inline;
+        }
+
+        .navbar-collapse {
+            text-align: center !important;
+        }
+    }

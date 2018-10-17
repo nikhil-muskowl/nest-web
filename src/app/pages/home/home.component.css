@@ -1,3 +1,5 @@
+/* Home Page CSS */
+
 .social-icons {
     position: absolute;
     top: 0px;
@@ -9,256 +11,1949 @@
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
-    /* background: rgba(0,0,0,.3); */
     background-size: cover;
     height: fit-content;
-}
-
-.social-icons .row {
-    margin-top: 36% !important;
+  }
+  
+  .social-icons .row {
+    width:100%;
+    margin-top: 35% !important;
     color: red;
     text-align: right;
-}
-
-.social-icons .detail {
+  }
+  
+  .social-icons .detail {
     margin-right: -80px !important;
-}
-
-.social-icons .title {
+  }
+  
+  .social-icons .title {
     font-size: 2.5rem !important;
     color: red;
     margin-bottom: 0.2rem !important;
     font-weight: bolder;
     text-align: right;
-}
-
-.social-icons .title-p {
+  }
+  
+  .social-icons .title-p {
     font-size: 20px !important;
     color: black; 
     text-align: right;
-}
-
-.social-icons #socials {
+  }
+  
+  .social-icons #socials {
     margin-top: -370px; 
-}
-
-.social-icons .social-row {
+  }
+  
+  .social-icons .social-row {
     margin-left: 135px; 
     margin-top: 0px !important; 
     font-size: 24px;
-}
-
-.social-icons #socials .fa-facebook-f {
+  }
+  
+  .social-icons #socials .fa-facebook-f {
     color:#38529a; 
     margin-top:165px;
-}
-
-.social-icons #socials .fa-instagram {
+  }
+  
+  .social-icons #socials .fa-instagram {
     color:#a43d9e; 
     margin-top:10px;
-}
-
-.social-icons #socials .fa-twitter {
+  }
+  
+  .social-icons #socials .fa-twitter {
     color:#00a8eb; 
     margin-top:10px;
-}
-
-#home-banner{
+  }
+  
+  #home-banner{
     width: 100%;
-}
-
-.product-detail{
+  }
+  
+  .product-detail{
     padding: 5rem 0 1rem 0;
     background: #ffc602;
-}
-.product-detail .detail{
+  }
+  .product-detail .detail{
     text-align: center;
     margin-left: -150px;
     margin-top: 90px;
-}
-.product-detail .title{
+  }
+  .product-detail .title{
     font-size: 3rem;
-}
-.brand-story{
+  }
+  .brand-story{
     padding: 1rem 0 1rem 0;
-}
-
-.product-detail #col-img {
+  }
+  
+  .product-detail #col-img {
     margin-top: 35px;
-}
-
-.product-detail #img-yellow {
+  }
+  
+  .product-detail #img-yellow {
     margin-left: -45px;
-}
-
-.product-detail #col-txt {
+  }
+  
+  .product-detail #col-txt {
     width: 60%;
     margin-top: 70px;
-}
-
-.product-detail .detail #shop-now {
+  }
+  
+  .product-detail .detail #shop-now {
     margin-top: 30px;
     font-size: 2.0rem;
     padding: .5rem 1rem;
-}
-
-.brand-story .title{
+  }
+  
+  .brand-story .title{
     font-size: 2.5rem;
     color: #ff0000;
-}
-
-#story-container {
+  }
+  
+  #story-container {
     margin-left: 30px;
-}
-
-#story-img{
-    /* width: 540px;
-    height: 500px; */
+  }
+  
+  #story-img{
     width: 700px;
     height: 470px;
     margin-top: -75px;
-}
-
-#story-container {
+  }
+  
+  #story-container {
     max-width: 100% !important;
     margin-top: 80px;
-}
-
-/* @media screen and (min-width: 360px) { */
-    /* @media (max-width: 767px) {
-    .product-detail .detail {
-        margin-left: 0px !important;
-    }
-
-    .product-detail .detail #stewed-bird {
-        font-size: 0.9rem;
-    }
-
-    .product-detail .detail #shop-now {
-        font-size: 0.5rem;
-        padding: .3rem 1rem;
-        height:24px;
-    }
-
-    .product-detail #img-yellow {
-        margin-left: -15px;
-        width: 230px;
-    }
-
-    .product-detail #col-img {
-        width: 100%;
-    }
-
-    .product-detail #col-txt {
-        width: 60%;
-        margin-top: -187px;
-        margin-left: 172px;
+  }
+ 
+    /* iPad 3 ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+        .social-icons .row {
+            margin-top: 25% !important;
+            }
+            
+            .social-icons .detail {
+            margin-right: 0px !important;
+            }
+            
+            .social-icons .title {
+            font-size: 1.2rem !important;
+            }
+            
+            .social-icons .title-p {
+            font-size: 10px !important;
+            }
+            
+            .social-icons #socials {
+            margin-top: -10px; 
+            }
+            
+            .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+            }
+    
+            .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-instagram {
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-twitter {
+            margin-right:15px;
+            }
+    
+            #story-container {
+                margin-top: 0px !important;
+                margin-left: 5px !important;
+            }
+    
+            .product-detail {
+            padding: 0rem 0 1rem 0;
+            }
+    
+            .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+            }
+    
+            .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+            }
+    
+            .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+            }
+    
+            .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+            }
+    
+            .brand-story .container .row .col-md-6 {
+            width: 50%;
+            }
+    
+            #brand-story-txt .title {
+            font-size: 2rem;
+            }
+    
+            #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: 0px;
+            }
     }
     
-    #div-yellow {
-        height: 170px;
-        padding: 0rem 0 0rem 0;
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        .social-icons .row {
+            margin-top: 20% !important;
+          }
+
+          /* .social-icons .row  .col-md-6 {
+            width:40%;
+          } */
+          
+          .social-icons .detail {
+            margin-right: 0px !important;
+          }
+          
+          .social-icons .title {
+            font-size: 1.5rem !important;
+          }
+          
+          .social-icons .title-p {
+            font-size: 12px !important;
+          }
+          
+          .social-icons #socials {
+            margin-top: -10px; 
+          }
+          
+          .social-icons .social-row {
+            margin-left: 0px; 
+            display: flex;
+            font-size: 24px;
+          }
+    
+          .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-instagram {
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-twitter {
+            margin-right:15px;
+          }
+    
+          #story-container {
+              margin-top: 0px !important;
+              margin-left: 5px !important;
+          }
+    
+          .product-detail {
+            padding: 0rem 0 1rem 0;
+          }
+    
+          .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt {
+            margin-top: 100px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+          }
+    
+          .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+          }
+    
+          .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+          }
+    
+          .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+          }
+    
+          #brand-story-txt .title {
+            font-size: 2rem;
+          }
+    
+          #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: 0px;
+          }
     }
 
-    .product-detail #col-img {
-        margin-top: 35px;
-    }
-  } */
-
-  /* @media screen and (min-width: 320px) { */
-    /* @media (max-width: 991px) {
-    .product-detail .detail {
-        margin-left: 0px !important;
-    }
-
-    .product-detail .detail #stewed-bird {
-        font-size: 0.9rem;
-    }
-
-    .product-detail .detail #shop-now {
-        font-size: 0.5rem;
-        padding: .3rem 1rem;
-        height:24px;
-    }
-
-    .product-detail #img-yellow {
-        margin-left: -15px;
-        width: 230px;
-    }
-
-    .product-detail #col-img {
-        width: 100%;
-    }
-
-    .product-detail #col-txt {
-        width: 60%;
-        margin-top: -187px;
-        margin-left: 172px;
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+        .social-icons .row {
+            margin-top: 25% !important;
+            }
+            
+            .social-icons .detail {
+            margin-right: 0px !important;
+            }
+            
+            .social-icons .title {
+            font-size: 1.2rem !important;
+            }
+            
+            .social-icons .title-p {
+            font-size: 10px !important;
+            }
+            
+            .social-icons #socials {
+            margin-top: -10px; 
+            }
+            
+            .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+            }
+    
+            .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-instagram {
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-twitter {
+            margin-right:15px;
+            }
+    
+            #story-container {
+                margin-top: 0px !important;
+                margin-left: 5px !important;
+            }
+    
+            .product-detail {
+            padding: 0rem 0 1rem 0;
+            }
+    
+            .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+            }
+    
+            .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+            }
+    
+            .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+            }
+    
+            .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+            }
+    
+            .brand-story .container .row .col-md-6 {
+            width: 50%;
+            }
+    
+            #brand-story-txt .title {
+            font-size: 2rem;
+            }
+    
+            #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: 0px;
+            }
     }
     
-    #div-yellow {
-        height: 170px;
-        padding: 0rem 0 0rem 0;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        .social-icons .row {
+            margin-top: 10% !important;
+          }
+          
+          .social-icons .detail {
+            margin-right: 0px !important;
+          }
+          
+          .social-icons .title {
+            font-size: 1.2rem !important;
+          }
+          
+          .social-icons .title-p {
+            font-size: 10px !important;
+          }
+          
+          .social-icons #socials {
+            margin-top: -10px; 
+          }
+          
+          .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+          }
+    
+          .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-instagram {
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-twitter {
+            margin-right:15px;
+          }
+    
+          #story-container {
+              margin-top: 0px !important;
+              margin-left: 5px !important;
+          }
+    
+          .product-detail {
+            padding: 0rem 0 1rem 0;
+          }
+    
+          .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+          }
+    
+          .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+          }
+    
+          .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+          }
+    
+          .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+          }
+    
+          #brand-story-txt .title {
+            font-size: 2rem;
+          }
+    
+          #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: -75px;
+          }
+    }
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .social-icons .row {
+            margin-top: 25% !important;
+            }
+            
+            .social-icons .detail {
+            margin-right: 0px !important;
+            }
+            
+            .social-icons .title {
+            font-size: 1.2rem !important;
+            }
+            
+            .social-icons .title-p {
+            font-size: 10px !important;
+            }
+            
+            .social-icons #socials {
+            margin-top: -10px; 
+            }
+            
+            .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+            }
+    
+            .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-instagram {
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-twitter {
+            margin-right:15px;
+            }
+    
+            #story-container {
+                margin-top: 0px !important;
+                margin-left: 5px !important;
+            }
+    
+            .product-detail {
+            padding: 0rem 0 1rem 0;
+            }
+    
+            .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+            }
+    
+            .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+            }
+    
+            .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+            }
+    
+            .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+            }
+    
+            .brand-story .container .row .col-md-6 {
+            width: 50%;
+            }
+    
+            #brand-story-txt .title {
+            font-size: 2rem;
+            }
+    
+            #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: 0px;
+            }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .social-icons .row {
+            margin-top: 10% !important;
+          }
+          
+          .social-icons .detail {
+            margin-right: 0px !important;
+          }
+          
+          .social-icons .title {
+            font-size: 1.2rem !important;
+          }
+          
+          .social-icons .title-p {
+            font-size: 10px !important;
+          }
+          
+          .social-icons #socials {
+            margin-top: -10px; 
+          }
+          
+          .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+          }
+    
+          .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-instagram {
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-twitter {
+            margin-right:15px;
+          }
+    
+          #story-container {
+              margin-top: 0px !important;
+              margin-left: 5px !important;
+          }
+    
+          .product-detail {
+            padding: 0rem 0 1rem 0;
+          }
+    
+          .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+          }
+    
+          .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+          }
+    
+          .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+          }
+    
+          .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+          }
+    
+          #brand-story-txt .title {
+            font-size: 2rem;
+          }
+    
+          #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: -75px;
+          }
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .social-icons .row {
+            margin-top: 25% !important;
+            }
+            
+            .social-icons .detail {
+            margin-right: 0px !important;
+            }
+            
+            .social-icons .title {
+            font-size: 1.2rem !important;
+            }
+            
+            .social-icons .title-p {
+            font-size: 10px !important;
+            }
+            
+            .social-icons #socials {
+            margin-top: -10px; 
+            }
+            
+            .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+            }
+    
+            .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-instagram {
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-twitter {
+            margin-right:15px;
+            }
+    
+            #story-container {
+                margin-top: 0px !important;
+                margin-left: 5px !important;
+            }
+    
+            .product-detail {
+            padding: 0rem 0 1rem 0;
+            }
+    
+            .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+    
+            .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+            }
+    
+            .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+            }
+    
+            .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+            }
+    
+            .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+            }
+    
+            .brand-story .container .row .col-md-6 {
+            width: 50%;
+            }
+    
+            #brand-story-txt .title {
+            font-size: 2rem;
+            }
+    
+            #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: 0px;
+            }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .social-icons .row {
+            margin-top: 10% !important;
+          }
+          
+          .social-icons .detail {
+            margin-right: 0px !important;
+          }
+          
+          .social-icons .title {
+            font-size: 1.2rem !important;
+          }
+          
+          .social-icons .title-p {
+            font-size: 10px !important;
+          }
+          
+          .social-icons #socials {
+            margin-top: -10px; 
+          }
+          
+          .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+          }
+    
+          .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-instagram {
+            margin-right:25px;
+          }
+          
+          .social-icons #socials .fa-twitter {
+            margin-right:15px;
+          }
+    
+          #story-container {
+              margin-top: 0px !important;
+              margin-left: 5px !important;
+          }
+    
+          .product-detail {
+            padding: 0rem 0 1rem 0;
+          }
+    
+          .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+          }
+    
+          .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+          }
+    
+          .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+          }
+    
+          .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+          }
+    
+          .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+          }
+    
+          #brand-story-txt .title {
+            font-size: 2rem;
+          }
+    
+          #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: -75px;
+          }
     }
 
-    .product-detail #col-img {
-        margin-top: 35px;
-    }
-} */
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .social-icons .row {
+        margin-top: 25% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
 
-/* Smartphones (portrait and landscape) ----------- */
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
 
-    .product-detail .detail {
-        margin-top: 65px;
-    }
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
 
-    .product-detail .detail #shop-now {
-        margin-top: 8px;
-    }
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
 
-    .brand-story #story-container {
-        margin-top: 5px;
-        margin-left: 2px;
-    }
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
 
-    #brand-story-txt .title {
-        font-size: 20px;
-    }
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
 
-    #brand-story-txt p {
-        margin-bottom: 0.5rem;
-    }
-
-    #story-img {
-        width: 300px;
-        height: 250px;
-    }
-}  */
-
-/* Smartphones (landscape) ----------- */
-/* @media only screen and (min-width : 321px) {
-    .product-detail .row #col-img {
-        margin-top: 22px;
-    }
-
-    .product-detail .row #col-img #img-yellow {
-        margin-left: 8px;
-    }
-
-    .product-detail .row #col-txt {
-         width: 60%;
-         margin-top: -160px;
-         margin-left: 200px;
-    }
-
-    .brand-story {
-        padding: 1rem 0 0rem 0;
-    }
-
-    .brand-story .container #story-row #story-img  {
-        width: 450px;
-        height: 270px;
+        .product-detail #col-txt .detail {
         margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        .brand-story .container .row .col-md-6 {
+        width: 50%;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: 0px;
+        }
     }
-} */
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .social-icons .row {
+        margin-top: 10% !important;
+      }
+      
+      .social-icons .detail {
+        margin-right: 0px !important;
+      }
+      
+      .social-icons .title {
+        font-size: 1.2rem !important;
+      }
+      
+      .social-icons .title-p {
+        font-size: 10px !important;
+      }
+      
+      .social-icons #socials {
+        margin-top: -10px; 
+      }
+      
+      .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+      }
+
+      .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+      }
+      
+      .social-icons #socials .fa-instagram {
+        margin-right:25px;
+      }
+      
+      .social-icons #socials .fa-twitter {
+        margin-right:15px;
+      }
+
+      #story-container {
+          margin-top: 0px !important;
+          margin-left: 5px !important;
+      }
+
+      .product-detail {
+        padding: 0rem 0 1rem 0;
+      }
+
+      .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+      }
+
+      .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+      }
+
+      .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+      }
+
+      .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+      }
+
+      .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+      }
+
+      .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+      }
+
+      #brand-story-txt .title {
+        font-size: 2rem;
+      }
+
+      #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: -75px;
+      }
+    }
+
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    .social-icons .row {
+        margin-top: 25% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        .brand-story .container .row .col-md-6 {
+        width: 50%;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: 0px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    .social-icons .row {
+        margin-top: 10% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: -75px;
+        }
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    .social-icons .row {
+        margin-top: 25% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        .brand-story .container .row .col-md-6 {
+        width: 50%;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: 0px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    .social-icons .row {
+        margin-top: 10% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: -75px;
+        }
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .social-icons .row {
+        margin-top: 25% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        .brand-story .container .row .col-md-6 {
+        width: 50%;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: 0px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .social-icons .row {
+        margin-top: 10% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: -75px;
+        }
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    .social-icons .row {
+        margin-top: 25% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        .brand-story .container .row .col-md-6 {
+        width: 50%;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: 0px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    .social-icons .row {
+        margin-top: 10% !important;
+        }
+        
+        .social-icons .detail {
+        margin-right: 0px !important;
+        }
+        
+        .social-icons .title {
+        font-size: 1.2rem !important;
+        }
+        
+        .social-icons .title-p {
+        font-size: 10px !important;
+        }
+        
+        .social-icons #socials {
+        margin-top: -10px; 
+        }
+        
+        .social-icons .social-row {
+        margin-left: 0px; 
+        display: inline;
+        font-size: 24px;
+        }
+
+        .social-icons #socials .fa-facebook-f {
+        margin-top:0px;
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-instagram {
+        margin-right:25px;
+        }
+        
+        .social-icons #socials .fa-twitter {
+        margin-right:15px;
+        }
+
+        #story-container {
+            margin-top: 0px !important;
+            margin-left: 5px !important;
+        }
+
+        .product-detail {
+        padding: 0rem 0 1rem 0;
+        }
+
+        .product-detail #col-img {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt {
+        margin-top: 10px !important;
+        width: 100%;
+        }
+
+        .product-detail #col-txt .detail {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        }
+
+        .product-detail #col-txt .detail .title {
+        font-size: 1.8rem;
+        }
+
+        .product-detail #col-txt .detail #shop-now {
+        font-size: 1.4rem;
+        margin-top: 0px !important;
+        padding: .2rem 0.7rem;
+        }
+
+        .product-detail .row #col-img #img-yellow {
+        margin-left: 0px !important;
+        }
+
+        #brand-story-txt .title {
+        font-size: 2rem;
+        }
+
+        #brand-story-img #story-img {
+        width: 300px;
+        height: 230px;
+        margin-top: -75px;
+        }
+    }
+
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .social-icons .row {
+            margin-top: 25% !important;
+            }
+            
+            .social-icons .detail {
+            margin-right: 0px !important;
+            }
+            
+            .social-icons .title {
+            font-size: 1.2rem !important;
+            }
+            
+            .social-icons .title-p {
+            font-size: 10px !important;
+            }
+            
+            .social-icons #socials {
+            margin-top: -10px; 
+            }
+            
+            .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+            }
+
+            .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-instagram {
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-twitter {
+            margin-right:15px;
+            }
+
+            #story-container {
+                margin-top: 0px !important;
+                margin-left: 5px !important;
+            }
+
+            .product-detail {
+            padding: 0rem 0 1rem 0;
+            }
+
+            .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+
+            .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+
+            .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+            }
+
+            .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+            }
+
+            .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+            }
+
+            .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+            }
+
+            .brand-story .container .row .col-md-6 {
+            width: 50%;
+            }
+
+            #brand-story-txt .title {
+            font-size: 2rem;
+            }
+
+            #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: 0px;
+            }
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .social-icons .row {
+            margin-top: 10% !important;
+            }
+            
+            .social-icons .detail {
+            margin-right: 0px !important;
+            }
+            
+            .social-icons .title {
+            font-size: 1.2rem !important;
+            }
+            
+            .social-icons .title-p {
+            font-size: 10px !important;
+            }
+            
+            .social-icons #socials {
+            margin-top: -10px; 
+            }
+            
+            .social-icons .social-row {
+            margin-left: 0px; 
+            display: inline;
+            font-size: 24px;
+            }
+
+            .social-icons #socials .fa-facebook-f {
+            margin-top:0px;
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-instagram {
+            margin-right:25px;
+            }
+            
+            .social-icons #socials .fa-twitter {
+            margin-right:15px;
+            }
+
+            #story-container {
+                margin-top: 0px !important;
+                margin-left: 5px !important;
+            }
+
+            .product-detail {
+            padding: 0rem 0 1rem 0;
+            }
+
+            .product-detail #col-img {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+
+            .product-detail #col-txt {
+            margin-top: 10px !important;
+            width: 100%;
+            }
+
+            .product-detail #col-txt .detail {
+            margin-top: 0px !important;
+            margin-left: 0px;
+            }
+
+            .product-detail #col-txt .detail .title {
+            font-size: 1.8rem;
+            }
+
+            .product-detail #col-txt .detail #shop-now {
+            font-size: 1.4rem;
+            margin-top: 0px !important;
+            padding: .2rem 0.7rem;
+            }
+
+            .product-detail .row #col-img #img-yellow {
+            margin-left: 0px !important;
+            }
+
+            #brand-story-txt .title {
+            font-size: 2rem;
+            }
+
+            #brand-story-img #story-img {
+            width: 300px;
+            height: 230px;
+            margin-top: -75px;
+            }
+    }
