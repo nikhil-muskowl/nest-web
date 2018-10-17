@@ -1,3 +1,5 @@
+<img class="img-fluid" src="assets/image/dummy/contact-us.jpg" style="width:100%; height: 480px;">
+
 <div class="contact-us">
   <div class="container" style="max-width: 100%;padding: 60px 30px 60px 30px;">
     <div class="row">
@@ -15,7 +17,41 @@
             of Lorem Ipsum.</p>
       </div>
       <div class="col-md-6">
-        <img class="img-fluid" src="assets/image/backgrounds/slider1.png">
+        <!-- <img class="img-fluid" src="assets/image/backgrounds/slider1.png"> -->
+        <h3>INQUIRY</h3>
+        <span *ngIf="msgSuccess" class="text-success">
+          {{msgSuccess}}
+        </span>
+        <span *ngIf="msgWarning" class="text-error">
+          {{msgWarning}}
+        </span>
+        <form class="form-horizontal" (ngSubmit)="submitForm()" [formGroup]="contactForm">
+            <div class="form-group" [class.has-error]="formErrors.name">
+              <input type="text" class="form-control" placeholder="Name" formControlName="name">
+              <span *ngIf="formErrors.name" class="text-error">
+                  {{formErrors.name}}
+              </span>
+            </div>
+            <div class="form-group" [class.has-error]="formErrors.email">
+              <input type="text" class="form-control" placeholder="Email" formControlName="email">
+              <span *ngIf="formErrors.email" class="text-error">
+                  {{formErrors.email}}
+              </span>
+            </div>
+            <div class="form-group" [class.has-error]="formErrors.contact">
+              <input type="text" class="form-control" placeholder="Contact" formControlName="contact">
+              <span *ngIf="formErrors.contact" class="text-error">
+                  {{formErrors.contact}}
+              </span>
+            </div>
+            <div class="form-group" [class.has-error]="formErrors.inquiry">
+                <textarea type="text" class="form-control" rows=8 cols=20 placeholder="Inquiry" formControlName="inquiry"></textarea>
+                <span *ngIf="formErrors.inquiry" class="text-error">
+                    {{formErrors.inquiry}}
+                </span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">SUBMIT</button>
+        </form>
       </div>
     </div>
   </div>

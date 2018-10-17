@@ -58,9 +58,7 @@
     font-size: 20px;
 }
 
-.navbar-nav {
-    margin-right: 80px !important;
-}
+
 
 .social-icons #socials .fa-facebook-f {
     color:#38529a; 
@@ -76,6 +74,7 @@
     color:#00a8eb; 
     margin-top:10px;
 }
+
 
 /* Smartphones (portrait and landscape) ----------- */
 /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
