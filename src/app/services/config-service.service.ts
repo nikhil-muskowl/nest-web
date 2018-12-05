@@ -6,6 +6,6 @@ import { Injectable } from '@angular/core';
 export class ConfigService {
   public url;
   constructor() {
-    this.url = 'http://social-app.muskowl.com/';
+    this.url = 'http://nest.muskowl.com/admin/';
   }
 }

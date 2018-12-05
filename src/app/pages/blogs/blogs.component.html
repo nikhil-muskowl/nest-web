@@ -1,0 +1,35 @@
+<img class="img-fluid" src="assets/image/dummy/blog.jpg" style="width:100%; height: 480px;">
+
+<div class="container" style="max-width: 100%;padding: 60px 30px 60px 30px;">
+    <div class="row">
+      <div class="col-md-8">
+          <div *ngFor="let record of blogs; let i = index;" class="blog-block">
+              <div class="">
+                <a href="javascript:void(0);"><img class="blog-img" src="{{record.image_thumb}}" alt=""></a>
+              </div>
+              <div class="">
+                <div class="">
+                  <h2 class=""><a href="javascript:void(0);" class="blog-title" routerLink="/blog-detail/{{record.id}}">{{record.title}}</a></h2>
+                </div>
+                <div class="">
+                  <ul>
+                    <li class=""><strong>{{record.created_date}}</strong></li>
+                    <li><a href="javascript:void(0);" class="blog-author-a">By <span class="blog-author-spn">{{record.user_name}}</span></a> </li>
+                  </ul>
+                </div>
+                <div class="">
+                  <p>{{record.description}}</p>
+                </div>
+                <a routerLink="/blog-detail/{{record.id}}" class="read-more">Read More</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-md-4">
+          <ul class="list-group">
+              <li class="list-group-item" *ngFor="let record of types; let i = index;" [ngClass]="{'active': type_id == record.id}" (click)="changeType(record.id)">
+                  <a>{{record.title}}</a>
+              </li>
+            </ul>
+      </div>
+    </div>
+  </div>

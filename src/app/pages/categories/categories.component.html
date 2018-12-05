@@ -1,0 +1,35 @@
+<img class="img-fluid" src="assets/image/dummy/blog.jpg">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+        <div *ngFor="let record of categories; let i = index;" class="category-block">
+            <div class="">
+              <a href="javascript:void(0);"><img class="category-img" src="{{record.image_thumb}}" alt=""></a>
+            </div>
+            <div class="">
+              <div class="">
+                <h2 class=""><a href="javascript:void(0);" class="category-title" routerLink="/category-detail/{{record.id}}">{{record.title}}</a></h2>
+              </div>
+              <div class="">
+                <ul>
+                  <li class=""><strong>{{record.created_date}}</strong></li>
+                  <li><a href="javascript:void(0);" class="category-author-a">By <span class="category-author-spn">{{record.user_name}}</span></a> </li>
+                </ul>
+              </div>
+              <div class="">
+                <p>{{record.description}}</p>
+              </div>
+              <a routerLink="/category-detail/{{record.id}}" class="read-more">Read More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-4">
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let record of categories; let i = index;" [ngClass]="{'active': type_id == record.id}" (click)="changeType(record.id)">
+                <a>{{record.title}}</a>
+            </li>
+          </ul>
+    </div>
+  </div>
+</div>

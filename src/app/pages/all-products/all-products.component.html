@@ -1,0 +1,42 @@
+
+<div class="top-img">
+  <img class="img-fluid bnr-img" src="assets/image/dummy/blog.jpg">
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+            <div class="row  row-outer" *ngFor="let record of products; let i = index;">
+              <div class="col-md-6">
+                <a href="javascript:void(0);"><img class="category-img" src="{{record.image_thumb}}" alt=""></a>
+              </div>
+              <div class="col-md-6" style="padding: 15px;">
+                  <div class="">
+                      <h2 class=""><a href="javascript:void(0);" class="category-title">{{record.title}}</a></h2>
+                    </div>
+                    <div class="">
+                      <ul>
+                        <li class=""><strong>{{record.price}}</strong></li>
+                        <li class=""><strong>{{record.quantity}}</strong></li>
+                        <li class=""><strong>{{record.html}}</strong></li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <p>{{record.description}}</p>
+                    </div>
+                    <div class="">
+                        <ul>
+                          <li class=""><strong>{{record.keyword}}</strong></li>
+                          <li class=""><strong>{{record.meta_title}}</strong></li>
+                          <li class=""><strong>{{record.meta_keyword}}</strong></li>
+                          <li class=""><strong>{{record.meta_description}}</strong></li>
+                        </ul>
+                      </div>
+                      <div class="" style="float:right; bottom: 0px;">
+                        <a routerLink="/product-detail/{{record.id}}" class="read-more">Read More</a>
+                      </div>
+                  </div>
+            </div>
+    </div>
+  </div>
+</div>

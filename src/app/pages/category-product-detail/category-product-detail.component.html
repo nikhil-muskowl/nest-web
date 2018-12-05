@@ -1,0 +1,51 @@
+<img class="img-fluid bnr-img" src="{{categoryDetail.image_thumb}}" style=" height: 480px;">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="category-block">
+                <div>
+                  <div>
+                    <h2><a href="javascript:void(0);" class="category-title">{{categoryDetail.title}}</a></h2>
+                  </div>
+                  <div>
+                    <ul class="description">
+                      <li class="sub-des"><strong>{{categoryDetail.keyword}}</strong></li>
+                      <li class="sub-des"><strong>{{categoryDetail.meta_title}}</strong></li>
+                      <li class="sub-des"><strong>{{categoryDetail.meta_keyword}}</strong></li>
+                      <li class="sub-des"><strong>{{categoryDetail.meta_description}}</strong></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p innerHTML="{{categoryDetail.html}}">{{categoryDetail.html}}</p>
+                    <p>{{categoryDetail.description}}</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+  <div class="row" style="border:1px solid #000;">
+    <div class="col-md-4" *ngFor="let record of categoryProducts; let i = index;">
+        <div class="category-block">
+            <div>
+              <a href="javascript:void(0);"><img class="category-img" src="{{record.image_thumb}}" alt=""></a>
+            </div>
+            <div>
+              <div>
+                <h2><a href="javascript:void(0);" class="category-title" routerLink="/product-detail/{{record.id}}">{{record.title}}</a></h2>
+              </div>
+              <div>
+                <ul>
+                  <li><strong>{{record.price}}</strong></li>
+                  <li><strong>{{record.quantity}}</strong></li>
+                </ul>
+              </div>
+              <div>
+                <p>{{record.description}}</p>
+              </div>
+              <a routerLink="/product-detail/{{record.id}}" class="read-more">Read More</a>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>

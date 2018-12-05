@@ -1,0 +1,8 @@
+.description {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.sub-des {
+    padding: 30px;
+}

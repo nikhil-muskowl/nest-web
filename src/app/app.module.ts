@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -16,6 +17,15 @@ import { DeliveryTermsNConditionsComponent } from './pages/delivery-terms-n-cond
 import { HowToShopComponent } from './pages/how-to-shop/how-to-shop.component';
 import { AboutBirdNestComponent } from './pages/about-bird-nest/about-bird-nest.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { BlogsComponent } from './pages/blogs/blogs.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
+import { FaqComponent } from './pages/faq/faq.component';
+
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { CategoriesComponent } from './pages/categories/categories.component';
+import { CategoryProductDetailComponent } from './pages/category-product-detail/category-product-detail.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
+import { AllProductsComponent } from './pages/all-products/all-products.component';
 
 @NgModule({
   declarations: [
@@ -32,13 +42,22 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
     HowToShopComponent,
     AboutBirdNestComponent,
     ContactUsComponent,
+    BlogsComponent,
+    BlogDetailComponent,
+    FaqComponent,
+    CategoriesComponent,
+    CategoryProductDetailComponent,
+    ProductDetailComponent,
+    AllProductsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    NgSelectModule,
     FormsModule,
-    ReactiveFormsModule  
+    ReactiveFormsModule,
+    AccordionModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

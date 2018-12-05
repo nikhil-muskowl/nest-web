@@ -1,0 +1,13 @@
+<img class="img-fluid" src="assets/image/dummy/blog.jpg" style="width:100%; height: 480px;">
+
+<div class="container" style="max-width: 100%;padding: 60px 30px 60px 30px;">
+  <h3 class="title-faq">FAQS</h3>
+  <accordion *ngFor="let record of faqs; let i = index;">
+    <accordion-group heading="{{record.text}}" >
+      <p *ngFor="let ans of record.answers; let i = index;">
+         {{ans.text}}
+      </p>     
+    </accordion-group>
+  </accordion>
+</div>
+

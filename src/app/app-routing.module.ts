@@ -12,6 +12,13 @@ import { TermsOfPaymentComponent } from './pages/terms-of-payment/terms-of-payme
 import { DeliveryTermsNConditionsComponent } from './pages/delivery-terms-n-conditions/delivery-terms-n-conditions.component';
 import { HowToShopComponent } from './pages/how-to-shop/how-to-shop.component';
 import { AboutBirdNestComponent } from './pages/about-bird-nest/about-bird-nest.component';
+import { BlogsComponent } from './pages/blogs/blogs.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { CategoriesComponent } from './pages/categories/categories.component';
+import { CategoryProductDetailComponent } from './pages/category-product-detail/category-product-detail.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
+import { AllProductsComponent } from './pages/all-products/all-products.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,6 +31,14 @@ const routes: Routes = [
   { path: 'delivery-terms-n-conditions', component: DeliveryTermsNConditionsComponent },
   { path: 'how-to-shop', component: HowToShopComponent },
   { path: 'about-bird-nest', component: AboutBirdNestComponent },
+  { path: 'blogs', component: BlogsComponent },
+  { path: 'blog-detail/:id', component: BlogDetailComponent },
+  { path: 'faqs', component: FaqComponent },
+  { path: 'categories', component: CategoriesComponent },
+  { path: 'category-detail', component: CategoryProductDetailComponent },
+  { path: 'category-detail/:id', component: CategoryProductDetailComponent },
+  { path: 'product-detail/:id', component: ProductDetailComponent },
+  { path: 'all-products', component: AllProductsComponent },
 ];
 
 @NgModule({
@@ -31,7 +46,7 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forRoot(
       routes,
-      { enableTracing: true } // <-- debugging purposes only
+      // { enableTracing: true } // <-- debugging purposes only
     )
   ],
   exports: [
